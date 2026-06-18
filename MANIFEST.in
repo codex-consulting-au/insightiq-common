@@ -1,0 +1,7 @@
+include VERSION
+include CHANGELOG.md
+include VERSIONING.md
+include README.md
+include insightiq_common/py.typed
+recursive-include insightiq_common *.py
+
