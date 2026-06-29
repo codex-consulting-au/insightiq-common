@@ -8,3 +8,7 @@ class SemanticContextProviderOutput(BaseModel):
     tables_used: list[str] = Field(
         description="List of tables used to generate the semantic context"
     )
+    matched_count: int = Field(
+        default=0,
+        description="Number of similar examples found above the similarity threshold",
+    )
